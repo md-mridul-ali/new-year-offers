@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* banner style */
+.banner{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    background-position: center;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.banner-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1320px;
+    height: 520px;
+    padding: 40px;
+    border-radius: 15px;
+}
+.subtitle{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.party{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  line-height: 1.2; 
+}
+/* start discount */
+
+ .discount-content{
+    width: 803px;
+    height: 806px;
+    background-color: bisque;
+    text-align: center;
+    margin-left: 140px;
+}
+.discount-content-title, .discount-content-subtitle{
+    color: #FF0000;
+}
+.discount-content-title{
+    margin-bottom: 48px;
+}
+.discount-content-subtitle{
+    margin-bottom: 16px;
+}
+.discount-content-subtitle1{
+    margin-bottom: 48px;
+}
+.discount-content-img{
+    width: 803px;
+    height: 500px;
+}
+
+/* end discount */
+
+/* start midnight */
+.midnight{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1320px;
+    height: 600px;
+    margin-left: 140px;
+   
+}
+
+.midnight-content{
+    display: flex;
+}
+.midnight-content-img{
+    width: 319.83px;
+    height: 464.66px;
+    margin: 68px 128px 67px 0px;
+}
+.midnight-content-title{
+    width: 600px;
+    height: 176px;
+    font-size: 64px;
+    color: white;
+    margin: 126px 0px 0px 126px;
+}
+.midnight-content-subtitle{
+    width: 697px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    margin: 0px 0px 72px 126px;
+}
+.button{
+    width: 103px;
+    height: 24px;
+    background-color: darkorange;
+    margin: 0px 0px 142px 158px;
+}
+/* end midnight */
+
+/* start date time */
+ .date-content{
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    background-color:#ef434318;
+    border-radius: 10px;
+    margin-left: 140px;
+}
+.date-content-details{
+    width: 555px;
+    height: 168px; 
+    font-size: 32px;
+    font-weight:600;
+    padding: 100px 380px 214px 385px;    
+    
+}
+.date-content-btn{
+    margin: 48px 191px 0px 191px;
+    width: 167px;
+    height: 56px;
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.span{
+    color: #FF0000;
+    font-size: 32px;
+    font-weight:600;
+} 
+
+/* end date time */
+
+/* start offer coming */
+.offercoming{
+    display: flex;
+    border-radius: 10px;
+    width: 1320px;
+    height: 463px;
+    margin: 0px 140px 0px 140px;
+    background-color: #f847471c;
+}
+.offercoming-offer-title{
+    width: 207px;
+    height: 29px;
+    font-size: 24px;
+    padding: 104px 0px 0px 0px;
+    margin-bottom: 16px;
+    color: #FF0000;
+}
+.offercoming-offer-subtitle{
+    width: 328px;
+    height: 60px;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.offercoming-offer-details{
+    width: 393px;
+    height: 128px;
+    font-size: 20px;
+    color: #0702117e;
+}
+.offercoming-img{
+    width: 364.84px;
+    height: 364.84px;
+}
+.img-ellipse{
+    padding: 49.08px;
+}
+.circle-wrapper{
+    position: relative;
+    width: 463px;   
+    height: 463px;  
+    border-radius: 50%; 
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offercoming-year-tiltle{
+    margin-left: 118px;
+    margin-bottom: 16px;
+    padding: 104px 0px 0px 0px;
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: bold;
+    /* padding: 0px 0px 0px 118px; */
+}
+.offercoming-year-details{
+    width: 276px;
+    height: 96px;
+    margin-bottom: 41px;
+    padding: 0px 0px 0px 118px;
+}
+.offercoming-year-img{
+    width: 140px;
+    height: 140px;
+    padding: 0px 0px 0px 118px;
+}
+/* end offer coming */
+
+/* start holidays */
+.holidays{
+    width: 1320px;
+    height: 986.07px;
+    background-color: bisque;
+    background-image: url("/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin-left: 140px;
+}
+.holidays-content{
+     text-align: center;
+}
+.holidays-content-title{
+      margin-bottom: 16px;
+}
+.holidays-content-subtitle{
+    width: 677px;
+    height: 91px;
+    padding-right: 322px;
+    padding-left: 321px;
+}
+.holidays-content-details{
+    width: 1068px;
+    height: 96px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 126px;
+    padding-left: 126px;
+    margin-bottom: 64px;
+}
+ 
+.holidays-img{
+    display: flex;
+    justify-content: center;
+}
+/* end holidays */
+
+/* start awesome portfolio */
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+
+}
+.div-content{
+    background-color: bisque;
+    width: 1320px;
+    height: 1163px;
+    margin:0px 140px 0px 140px ;
+}
+.div-content-title{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500;
+    /* margin-bottom: 220px; */
+}
+.div-content-subtitle{
+    margin-top: 14px ;
+    font-size: 48px;
+
+}
+.div-content-details{
+    font-size: 20px;
+    height: 64px;
+    width: 896px;
+    margin-top: 14px;
+}
+/* end awesome portfolio */
+/* footer style */
+.footer{
+    background-color: #070211;
+    margin-top: 6726px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+}
+.footer-contact{
+     padding: 260px;
+}
+.footer-description{
+    display: flex;
+    color: white;
+    width: 1185px;
+    height: 80px;
+    margin: 120px 275px 409px 140px;
+    
+}
+.footer-address{
+    margin: 120px 0px 0px 0px; 
+   
+}
